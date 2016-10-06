@@ -50,7 +50,7 @@ var app = {
 window.plugins.OneSignal.getIds(function(ids) {
     if(pp=='1'){}
     else{
-   var ref = cordova.InAppBrowser.open('http://topstar.vezuedu.kz/12/index.php?userpush='+ids.userId, '_blank', 'location=no');}
+   var ref = cordova.InAppBrowser.open('http://topstar.vezuedu.kz/fr7/index.php?userpush='+ids.userId, '_blank', 'location=no');}
 });
   
   // Show an alert box if a notification comes in when the user is in your app.
